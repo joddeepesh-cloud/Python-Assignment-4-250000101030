@@ -1,0 +1,16 @@
+# User-Defined Module: calculator_module.py
+# Contains arithmetic calculation functions
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Division by zero error"
+    return a / b
